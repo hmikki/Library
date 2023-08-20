@@ -19,13 +19,13 @@
     <div id="tabsContent" class="tab-content">
         <div id="videos" class="tab-pane fade  active show">
             <section class="books mt-5 box-shadow radius mb-5">
-                <form action="" method="post" class="search-form">
-                    @csrf
-                    <div class="form-group has-search">
-                        <span class="fa fa-search form-control-feedback"></span>
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                </form>
+{{--                <form action="" method="post" class="search-form">--}}
+{{--                    @csrf--}}
+{{--                    <div class="form-group has-search">--}}
+{{--                        <span class="fa fa-search form-control-feedback"></span>--}}
+{{--                        <input type="text" class="form-control" placeholder="Search">--}}
+{{--                    </div>--}}
+{{--                </form>--}}
 
                 <div class="row">
                     @foreach($videos as $video)
@@ -50,13 +50,13 @@
         </div>
         <div id="documents" class="tab-pane fade">
             <section class="books mt-5 box-shadow radius mb-5">
-                <form action="" method="post" class="search-form">
-                    @csrf
-                    <div class="form-group has-search">
-                        <span class="fa fa-search form-control-feedback"></span>
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                </form>
+{{--                <form action="" method="post" class="search-form">--}}
+{{--                    @csrf--}}
+{{--                    <div class="form-group has-search">--}}
+{{--                        <span class="fa fa-search form-control-feedback"></span>--}}
+{{--                        <input type="text" class="form-control" placeholder="Search">--}}
+{{--                    </div>--}}
+{{--                </form>--}}
                 <div class="row">
                     @foreach($documents as $document)
                     <div class="col-md-3 bookItem">
@@ -76,13 +76,13 @@
         </div>
         <div id="applications" class="tab-pane fade">
             <section class="books mt-5 box-shadow radius mb-5">
-                <form action="" method="post" class="search-form">
-                    @csrf
-                    <div class="form-group has-search">
-                        <span class="fa fa-search form-control-feedback"></span>
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                </form>
+{{--                <form action="" method="post" class="search-form">--}}
+{{--                    @csrf--}}
+{{--                    <div class="form-group has-search">--}}
+{{--                        <span class="fa fa-search form-control-feedback"></span>--}}
+{{--                        <input type="text" class="form-control" placeholder="Search">--}}
+{{--                    </div>--}}
+{{--                </form>--}}
                 <div class="row">
                     @foreach($applications as $application)
                         <div class="col-md-3 bookItem">
