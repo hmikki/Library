@@ -14,4 +14,43 @@
         </div>
         </div>
     </section>
+    <section class="collages mt-5 mb-5">
+        <h3 class="text-center">فريق العمل</h3>
+        <div class="row">
+            <div class="teamItem" style="cursor: pointer">
+                    <div class="collageImage">
+                        <img src="{{asset('assets/img/team4.jpg')}}" width="50px" height="150px">
+                    </div>
+                    <div class="collageName">
+                        <h6 class="text-center">برهان القردوع</h6>
+                    </div>
+                </div>
+            <div class="teamItem" style="cursor: pointer">
+                <div class="collageImage">
+                    <img src="{{asset('assets/img/team3.jpg')}}" width="50px" height="150px">
+                </div>
+                <div class="collageName">
+                    <h6 class="text-center">صلاح الصربي</h6>
+                </div>
+            </div>
+            <div class="teamItem" style="cursor: pointer">
+                <div class="collageImage">
+                    <img src="{{asset('assets/img/team2.jpg')}}" width="50px" height="150px">
+                </div>
+                <div class="collageName">
+                    <h6 class="text-center">احمد تاج الدين</h6>
+                </div>
+            </div>
+            <div class="teamItem" style="cursor: pointer">
+                <div class="collageImage">
+                    <img src="{{asset('assets/img/team1.jpg')}}" width="50px" height="150px">
+                </div>
+                <div class="collageName">
+                    <h6 class="text-center">صادق الصربي</h6>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
 @endsection

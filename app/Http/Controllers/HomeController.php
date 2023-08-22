@@ -46,7 +46,8 @@ class HomeController extends Controller
         return view('terms');
     }
     public function about(){
-        return view('website.about');
+        $collages = Collage::where('is_active', true)->limit(4)->get();
+        return view('website.about', compact('collages'));
     }
     public function contact(){
         return view('website.contact');
